@@ -1,0 +1,115 @@
+#login {
+    background: linear-gradient(120deg, #025a18 44.9%, #ffffff 45%) no-repeat fixed;
+}
+
+#home {
+    background: linear-gradient(120deg, #ffffff 44.9%, #025a18 45%) no-repeat fixed;
+}
+
+header {
+    border-bottom: 2px solid #e6e4e4;
+    padding: 5px;
+    background-color: white;
+}
+
+.icon-detail {
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.color-primary {
+    color: #4c0070;
+}
+
+.color-secondary {
+    color: #025a18;
+}
+
+.text-login {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.coins {
+    position: absolute;
+    bottom: 140px;
+}
+
+.button-login {
+    border-radius: 10px;
+    background-color: #4c0070;
+    color: #ffffff;
+    width: 50%;
+    margin: 0 25%;
+    padding: 5px;
+    transition: 2s;
+}
+
+.button-default {
+    border-radius: 10px !important;
+    background-color: #4c0070 !important;
+    color: #ffffff !important;
+    padding: 7px;
+    margin: 20px 10px 10px 0;
+}
+
+.button-cancel {
+    border-radius: 10px !important;
+}
+
+.button-float {
+    border-radius: 100% !important;
+    height: 60px !important;
+    width: 60px !important;
+    position: fixed !important;
+    padding: 0 !important;
+    bottom: 1rem !important;
+    right: 2rem !important;
+    font-size: 35px !important;
+    border: 1px solid #4c0070 !important;
+    background-color: #4c0070 !important;
+    color: #ffffff !important;
+    transition: 2s;
+}
+
+.button-float:hover {
+    background-color: #ffffff !important;
+    border: #025a18 !important;
+    color: #025a18 !important;
+    transition: 2s;
+}
+
+.button-login:hover, .button-default:hover {
+    background-color: #025a18;
+    transition: 2s;
+}
+
+.link-default {
+    color: #4c0070;
+    cursor: pointer;
+}
+
+.link-default:hover {
+    color: #025a18;
+    transition: 2s;
+}
+
+.bold-label {
+    font-weight: 500;
+}
+
+.info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 0 0 0;
+}
+
+.logout {
+    min-width: 5rem !important;
+}
+
+.menu {
+    margin-right: 20px;
+}
